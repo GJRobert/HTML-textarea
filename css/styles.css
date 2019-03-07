@@ -1,7 +1,16 @@
-html, body {height: 100%;}
+html, body {
+	height: 95%;
+}
+body, textarea {
+	background: #f6ebf1;
+}
 textarea {
-	width: 98%; height: 98%;
-	font-family: PT Mono/*Lora*/, /*TypeLand KhangXi Dict Trial*/'WenyueType GutiFangsong (Noncommercial Use)', Songti TC, serif;
+	width: 95%; height: 100%;
+	font-family: PT Mono/*Lora*/, TypeLand KhangXi Dict Trial, 'WenyueType GutiFangsong (Noncommercial Use)', Songti TC, Daehan, serif;
 	font-size: 16pt;
+/*	font-weight: 100;*/
 	line-height: 1.4em;
+	padding: 10px;
+	margin: 10px;
+	color: #703257;
 }
